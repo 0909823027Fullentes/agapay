@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "My system is online!"
+    return "FinalUI.py"
 
 if __name__ == "__main__":
     app.run(debug=True)
